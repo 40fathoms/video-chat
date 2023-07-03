@@ -1,0 +1,51 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "no-console": ["warn", { "allow": ["warn", "error"] }],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "import/prefer-default-export": "off",
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".tsx"]
+      }
+    ],
+    "@next/next/no-server-import-in-page": "off",
+    "@typescript-eslint/no-non-null-assertion": "off",
+    "no-use-before-define": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/explicit-member-accessibility": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/prop-types": "off",
+    "react/require-default-props": "off",
+    "react/react-in-jsx-scope": "off",
+    "camelcase": "off",
+    "@typescript-eslint/camelcase": "off",
+    "no-underscore-dangle": "off",
+    "consistent-return": "off",
+    "react/no-unused-prop-types": "off",
+    "@typescript-eslint/no-unused-vars": "warn",
+    "@typescript-eslint/no-explicit-any": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "ts": "never",
+        "tsx": "never"
+      }
+    ],
+    "react/jsx-no-bind": [
+      "off",
+      {
+        "allowArrowFunctions": "off",
+        "allowFunctions": "off"
+      }
+    ]
+  }
+}
